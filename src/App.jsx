@@ -1,9 +1,12 @@
+import Body from "./components/Body"
 
-function App() {
+const App = () => {
 
   return (
-    <div className="text-2xl text-red-800">Namaste Everyone, let build cineflix-GPT</div>
-  )
-}
+    <div>
+      <Body />
+    </div>
+  );
+};
 
-export default App
+export default App;
